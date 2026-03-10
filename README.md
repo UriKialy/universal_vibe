@@ -1,5 +1,5 @@
 # A Universal Vibe? Finding and Controlling Language-Agnostic Informal Register with SAEs
-
+**Ayal Klein, Avraham Shtrasberg, Uri Z. Kialy**
 This repository contains the code, data, and results for our ACL submission investigating whether multilingual LLMs represent slang as a universal, language-agnostic concept or as a collection of isolated language-specific patterns.
 
 We use Sparse Autoencoders (SAEs) on **Gemma-2-9B-IT** across **English, Hebrew, and Russian**, and show that a small universal core of slang-discriminative features forms a geometrically coherent "slang island" in the model's latent space — one that transfers zero-shot to **German**, a language entirely absent from our feature extraction pipeline.
@@ -113,6 +113,7 @@ If you use this code or data, please cite:
 ```
 @inproceedings{universalvibe2025,
   title     = {A Universal Vibe? Finding and Controlling Language-Agnostic Informal Register with SAEs},
+  author    = {Klein, Ayal and Shtrasberg, Avraham and Kialy, Uri Z.},
   booktitle = {Proceedings of ACL},
   year      = {2025}
 }
