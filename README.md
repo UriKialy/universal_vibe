@@ -60,7 +60,7 @@ Three datasets of **polysemous** slang/literal sentence pairs — every target t
 |----------|-----------|-------|---------|--------------|--------|
 | English  | 2,835     | 968   | 1,857   | 130          | OpenSubtitles, web |
 | Hebrew   | 6,559     | 4,366 | 2,193   | 18           | HuggingFace corpora |
-| Russian  | 1,259     | 538   | 721     | 15           | VKontakte (VK) |
+| Russian  | 1,259     | 538   | 721     | 15           | VKontakte (VK),Telegram |
 
 ---
 
