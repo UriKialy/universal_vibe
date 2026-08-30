@@ -19,12 +19,6 @@ We use Sparse Autoencoders (SAEs) on **Gemma-2-9B-IT** across **English, Hebrew,
 
 ```
 .
-├── datasets/
-│   ├── unified_english_dataset.csv          # English polysemous slang/literal sentences
-│   ├── hebrew_slang_dataset.csv             # Hebrew polysemous slang/literal sentences
-│   ├── russian_literal_negatives_dataset.csv # Russian literal sentences
-│   └── ...                                  # Classification outputs, human annotations
-│
 ├── layer20_features_extraction/
 │   ├── Layer20_crosslinguistic_analysis.ipynb     # SAE feature extraction & overlap analysis
 │   ├── layer20_crosslinguistic_analysis.json      # Top-100 features per language + universal core
@@ -41,11 +35,6 @@ We use Sparse Autoencoders (SAEs) on **Gemma-2-9B-IT** across **English, Hebrew,
 │   ├── formality_scores.csv                          # GPT-4o-mini formality scores
 │   ├── formality_scores_human&LLM_annotated.csv      # Human + LLM annotation comparison
 │   └── *.png                                         # Steering heatmaps and transfer matrices
-│
-├── layer20_steering_classification_/
-│   ├── layer_20_classifcation+steering.ipynb  # DiM steering on classification task
-│   ├── alpha_sweep_all_results.csv            # P(slang) across all α values
-│   └── baseline_checkpoint.csv               # Unsteered classification baseline
 │
 └── slang_feature_analysis_voacb_proj.ipynb   # Vocabulary projection of universal features
 ```
