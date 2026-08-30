@@ -111,10 +111,10 @@ SAEs: GemmaScope 131k-width at Layer 9 and Layer 20.
 
 If you use this code or data, please cite:
 ```
-@inproceedings{universalvibe2025,
-  title     = {A Universal Vibe? Finding and Controlling Language-Agnostic Informal Register with SAEs},
-  author    = {Klein, Ayal and Shtrasberg, Avraham and Kialy, Uri Z.},
-  booktitle = {Proceedings of ACL},
-  year      = {2025}
+@article{kialy2026universal,
+  title={A Universal Vibe? Finding and Controlling Language-Agnostic Informal Register with SAEs},
+  author={Kialy, Uri Z and Shtarkberg, Avi and Klein, Ayal},
+  journal={arXiv preprint arXiv:2603.26236},
+  year={2026}
 }
 ```
