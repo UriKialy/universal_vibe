@@ -663,7 +663,7 @@ df.head(3)
 print("Setting up GPT-4o as formality judge...")
 
 # Initialize OpenAI client
-client = OpenAI(api_key="YOUR_API_KEY_HERE")
+client = OpenAI(api_key="...")
 
 import time
 import re
