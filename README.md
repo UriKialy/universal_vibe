@@ -11,8 +11,9 @@ We use Sparse Autoencoders (SAEs) on **Gemma-2-9B-IT** across **English, Hebrew,
 
 - **Universal slang core**: 9–10 SAE features are shared across all three languages at both Layer 9 and Layer 20, forming a geometrically coherent cluster in decoder space.
 - **Statistically non-accidental**: A permutation test (n=100,000), including a robustness check restricted to activity-filtered features, confirms the triple overlap is a 125,000× enrichment over chance (p < 10⁻⁵).
-- **Causal control**: Steering with universal feature vectors causally modulates generation formality across all languages, including zero-shot transfer to German.
-- **Input/output asymmetry**: SAE-derived vectors control open-ended generation; Difference-in-Means vectors control classification — consistent with the input/output feature distinction of Arad et al. (2025).
+- **Causal control**: Steering with universal feature vectors causally modulates generation formality across all languages, including zero-shot transfer to 6 languages (German,
+Japanese, Hindi, Thai, Georgian, and Amharic).
+- **Input/output asymmetry**: SAE-derived vectors control open-ended generation.
 
 ---
 
@@ -103,7 +104,7 @@ SAEs: GemmaScope 131k-width at Layer 9 and Layer 20.
 
 ## Citation
 
-If you use this code or data, please cite:
+Please cite us :)  :
 ```
 @article{kialy2026universal,
   title={A Universal Vibe? Finding and Controlling Language-Agnostic Informal Register with SAEs},
